@@ -1,2 +1,117 @@
-# -2025-R-eAprendiendo.com
-Aprende mientras te diviertes
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ríe Aprendiendo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-yellow-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-yellow-300 p-4 shadow-md">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-red-600">RíeAprendiendo.com</h1>
+        <nav class="space-x-4">
+          <a href="#juegos" class="hover:text-blue-600">Juegos</a>
+          <a href="#recursos" class="hover:text-blue-600">Recursos</a>
+          <a href="#curiosidades" class="hover:text-blue-600">Curiosidades</a>
+          <a href="#padres" class="hover:text-blue-600">Para Padres</a>
+          <a href="#apoya" class="hover:text-blue-600">Apóyanos</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-yellow-100 py-12 text-center">
+      <h2 class="text-4xl font-bold mb-4">¡Aprender nunca fue tan divertido!</h2>
+      <p class="text-lg mb-6">Trivias, juegos, guías escolares y mucha diversión para estudiantes curiosos.</p>
+      <a href="#juegos" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600 transition">
+        Empieza a jugar
+      </a>
+    </section>
+
+    <!-- Juegos -->
+    <section id="juegos" class="max-w-6xl mx-auto py-12">
+      <h3 class="text-2xl font-bold mb-6 text-center">🎮 Juegos y Trivias</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-lg">¿Sabes más que un niño de 5°?</h4>
+          <p class="text-sm mb-4">Pon a prueba tus conocimientos básicos escolares.</p>
+          <a href="juego-5grado.html" class="text-blue-600 underline">Jugar ahora</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-lg">Trivia de Ciencias</h4>
+          <p class="text-sm mb-4">Reta tu memoria con preguntas científicas divertidas.</p>
+          <a href="#" class="text-blue-600 underline">Jugar ahora</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-lg">¿Qué personaje escolar eres?</h4>
+          <p class="text-sm mb-4">Un test tipo BuzzFeed para descubrir tu estilo.</p>
+          <a href="#" class="text-blue-600 underline">Jugar ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recursos -->
+    <section id="recursos" class="bg-yellow-100 py-12">
+      <div class="max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold mb-6 text-center">📚 Recursos Escolares</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-4 rounded shadow">
+            <h4 class="font-bold">Guía de Multiplicación</h4>
+            <p class="text-sm mb-2">Descarga una hoja práctica para repasar tablas.</p>
+            <a href="guia-multiplicacion.pdf" download class="text-blue-600 underline">Descargar PDF</a>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h4 class="font-bold">Ortografía básica</h4>
+            <p class="text-sm mb-2">Fichas para mejorar la escritura y tildación.</p>
+            <a href="ortografia-basica.pdf" download class="text-blue-600 underline">Descargar PDF</a>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <h4 class="font-bold">Colorea y aprende</h4>
+            <p class="text-sm mb-2">Dibujos imprimibles para los más pequeños.</p>
+            <a href="colorea.pdf" download class="text-blue-600 underline">Descargar PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curiosidades -->
+    <section id="curiosidades" class="max-w-6xl mx-auto py-12">
+      <h3 class="text-2xl font-bold mb-6 text-center">🤓 Rincón curioso</h3>
+      <ul class="space-y-4">
+        <li class="bg-white p-4 rounded shadow">🧠 ¿Sabías que el corazón de un camarón está en su cabeza?</li>
+        <li class="bg-white p-4 rounded shadow">😂 Chiste: ¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</li>
+        <li class="bg-white p-4 rounded shadow">🔍 Los tiburones existían antes que los árboles.</li>
+      </ul>
+    </section>
+
+    <!-- Para padres -->
+    <section id="padres" class="bg-yellow-100 py-12">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-6">👨‍👩‍👧 Para padres y docentes</h3>
+        <p class="mb-4">Encuentra herramientas, consejos y recursos listos para usar en casa o el aula.</p>
+        <a href="mailto:contacto@rieaprendiendo.com" class="text-blue-600 underline">Contáctanos para más recursos</a>
+      </div>
+    </section>
+
+    <!-- Apóyanos -->
+    <section id="apoya" class="py-12 text-center">
+      <h3 class="text-2xl font-bold mb-4">💖 Apóyanos</h3>
+      <p class="mb-4">¿Te gusta nuestro contenido? Ayúdanos a crecer:</p>
+      <div class="space-x-4">
+        <a href="https://www.paypal.me/tuusuario" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded">Donar vía PayPal</a>
+        <a href="https://nequi.co" target="_blank" class="bg-purple-500 text-white px-4 py-2 rounded">Nequi: 3232473196</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-yellow-300 text-center py-6">
+      <p>© 2025 RíeAprendiendo.com - inspirado por karla 🚀</p>
+    </footer>
+  </body>
+</html>
+
+<a href="https://wa.me/573162257028" target="_blank" class="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-600">
+    📲 Contáctanos por WhatsApp
+  </a>
